@@ -135,10 +135,13 @@ figcaption {
 	height: 22px;
 	color: transparent;
 	cursor: pointer;
-	background: red;
+	border: 1px solid transparent;
+	border-radius: 50%;
 	background: url(img/social-media-icons-the-circle-set.png) no-repeat;
 }
-
+.link:hover {
+	border: 1px solid white;
+}
 .facebook {
   background-position: 0px 0px;
 }
