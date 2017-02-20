@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 2000px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	color:  #333333;
+	font-size: 0.75rem;
+}
+h1 {
+	font-size: 1.5rem;
+	margin: 0 0 10px 0;
+}
+
+.text_block img {
+	margin-top: 4px;
+	margin-bottom: 15px;
+}
+h2 {
+	font-size: 1.125rem;
+	margin-bottom: 20px;
+}
+
+p{
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+.p_nopadding{
+	padding: 0;
+}
+
+.wrapper {
+	position: relative;
+	width: 563px;
+	height: 758px;
+	margin: 200px auto;
+}
+
+.page {
+	position: absolute;
+	width: 523px;
+	height: 750px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	padding: 32px;
+}
+.first_page {
+	top: 39px;
+	left: 40px;
+	background-color: #acacac;
+}
+.second_page {
+	top: 20px;
+	left: 21px;
+	background-color: #cccccc;
+}
+.third_page {
+	top: 0;
+	left: 0;
+	background-color: #ebebeb;
+}
+
+/* Stikers */
+.page:after {
+	position: absolute;
+	content: '';
+	display: block;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 2px solid #000000;
+	height: 31px;
+}
+.first_page:after {
+	top: 48px;
+	right: -11px;
+	background-color: #00aeef;
+	width: 95px;
+}
+.second_page:after {
+	top: 43px;
+	right: -44px;
+	background-color:  #39b54a;
+	width: 95px;
+}
+.third_page:after {
+	top: 39px;
+	right: -78px;
+	background-color:  #f68e56;
+	width: 107px;
+}
+/* Top Page*/
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.left {
+	float: left;
+	margin-right: 20px;
+}
+.right {
+	float: right;
+}
+.figures img {
+	margin-bottom: 15px;
+}
+figcaption {
+	padding-top: 220px;
+	font-size: 0.563rem;
+	text-align: center;
+}
+/* Sotial Block*/
+.share_block {
+	position: fixed;
+	bottom: 8%;
+	right: 0;
+	border: 1px solid #362f2d;
+	background-color: #fbaf5d;
+	width: 87px;
+	height: 69px;
+	color:  #333333;
+	text-align: center;
+}
+.share_block .title {
+	padding: 8px;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.link {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	color: transparent;
+	cursor: pointer;
+	background: red;
+	background: url(img/social-media-icons-the-circle-set.png) no-repeat;
+}
+
+.facebook {
+  background-position: 0px 0px;
+}
+
+.twitter {
+  background-position: -28px 0px;
+}
+
+.instagram {
+  background-position: -57px 0px;
+}
